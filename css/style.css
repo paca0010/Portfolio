@@ -1,16 +1,17 @@
 :root {
-    --bs-primary:#c78c06;
+    --bs-primary: #c78c06;
     --bs-primary-rgb: 199, 140, 6;
     --bs-secondary: #ffe6ac;
     --bs-secondary-RGB: 255, 230, 172;
-    --bs-dark:rgb(7, 7, 7);
+    --bs-dark: rgb(7, 7, 7);
 }
 
 .banner {
-    background-image: url(../);
+    background: url(../images/Cream\ Dark\ Green\ Casual\ Corporate\ Sign\ up\ Page\ Website\ Sign-Up\ Page.png) no-repeat center;
+    background-size: cover;
 }
 
 
-.nav-link{
+.nav-link {
     color: var(--bs-primary)
 }
