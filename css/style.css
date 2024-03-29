@@ -1,6 +1,6 @@
 :root {
-    --bs-primary: #c78c06;
-    --bs-primary-rgb: 199, 140, 6;
+    --bs-primary: white;
+    --bs-primary-rgb: 255, 255, 255;
     --bs-secondary: #ffe6ac;
     --bs-secondary-RGB: 255, 230, 172;
     --bs-dark: rgb(7, 7, 7);
@@ -12,3 +12,5 @@
 .nav-link {
     color: var(--bs-primary)
 }
+
+/* Footer */
