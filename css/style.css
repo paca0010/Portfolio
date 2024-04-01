@@ -6,11 +6,8 @@
     --bs-dark: rgb(7, 7, 7);
 }
 
-
-
-
-.nav-link {
-    color: var(--bs-primary)
+nav {
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;;
 }
 
 /* Footer */
