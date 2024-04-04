@@ -3,15 +3,11 @@
     --bs-primary-rgb: 255, 255, 255;
     --bs-secondary: #ffe6ac;
     --bs-secondary-RGB: 255, 230, 172;
-    --bs-dark: rgb(7, 7, 7);
+    --bs-dark: rgb(0, 0, 0);
 }
 
-nav {
-    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;;
-}
+
 
 /* Footer */
 
 /* Contact */
-
-
