@@ -14,6 +14,7 @@
 /******Desktop Styles******/
 @media screen and (min-width: 991px) {}
 
+/* HOME */
 .head {
     background-image: url(../images/header\ bg\ image.png);
     background-size: cover;
@@ -23,6 +24,17 @@
     height: 700px;
 }
 
+
+
+/* PROJECTS */
+
+
+
+/* ABOUT */
+
+
+
+/* CONTACT */
 .abouthead {
     background-image: url(../images/header\ bg\ image.png);
     background-size: cover;
