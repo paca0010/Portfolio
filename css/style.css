@@ -6,6 +6,11 @@
     --bs-dark: rgb(0, 0, 0);
 }
 
+.card {
+    border: black;
+}
+
+
 body {
     font-family: 'Outfit', sans-serif;
 }
@@ -28,6 +33,25 @@ body {
     .headtext {
         padding-top: 3rem;
         text-align: center;
+    }
+
+    /* PROJECTS */
+
+    .project-item {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #222;
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 11px;
+    }
+    
+    .project-img {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #222;
+        border-radius: 5px;
+        margin: 11px;
     }
 
 }
@@ -63,6 +87,26 @@ body {
 
 /* PROJECTS */
 
+.project-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #222;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 11px;
+}
+
+.project-img {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #222;
+    border-radius: 5px;
+    margin: 11px;
+}
+
+.title, .description {
+    text-align: left;
+}
 
 
 /* ABOUT */
