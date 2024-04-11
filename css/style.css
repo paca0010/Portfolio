@@ -157,4 +157,12 @@ body {
 
 /* CONTACT */
 
+iframe {
+    padding-left: 2rem;
+}
+
+.container {
+    background-color: #E4E2DD;
+}
+
 }
