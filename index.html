@@ -100,11 +100,11 @@
         </section>
 
         <!-- Footer -->
-        <footer class="bg-black text-white py-3">
+        <footer class="bg-black text-white py-3" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col fs-1 ps-5 text-start">
-                        <p>
+                        <p itemprop="name">
                             DeiWorks
                         </p>
                     </div>
@@ -113,9 +113,12 @@
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                     </div>
-                    <div class="col copy pt-4 pe-5 text-end">
+                    <div class="col copy pt-4 pe-5 text-end d-none d-md-block" itemprop="copyright">
                         <p>
-                            &copy;Copyright 2024 Dei Works
+                            <span aria-label="Copyright" role="img">&#169;</span>
+                            <span>
+                                <time datetime="2024">2024</time> Dei Works
+                            </span>
                         </p>
                     </div>
                 </div>

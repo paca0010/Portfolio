@@ -18,6 +18,21 @@ body {
 /******MObile Styles******/
 @media screen and (max-width: 991px) {
 
+    /* HOME */
+
+    .head {
+        background-image: url(../images/header\ bg\ image.png);
+        background-size: cover;
+        background-position: center;
+        padding: 100px 0;
+        width: 100%;
+        height: 700px;
+    }
+
+    .head {
+        text-align: center;
+        padding-top: 15rem;
+    }
 
     /* ABOUT */
 
@@ -53,6 +68,9 @@ body {
         border-radius: 5px;
         margin: 11px;
     }
+
+    /* CONTACT */
+
 
 }
 
