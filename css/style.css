@@ -92,6 +92,14 @@ body {
 /******Desktop Styles******/
 @media screen and (min-width: 991px) {
 
+    .skip-link {
+        position: absolute;
+        left: 3rem;
+        color: black;
+        padding: 1rem;
+        opacity: 100%;
+    }
+    
 /* HOME */
 .head {
     background-image: url(../images/header\ bg\ image.png);
@@ -114,7 +122,6 @@ body {
 .welcome p {
     padding-bottom: 5rem;
 }
-
 
 
 /* PROJECTS */
