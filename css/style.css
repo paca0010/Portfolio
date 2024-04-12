@@ -111,6 +111,21 @@ body {
     padding-top: 10rem;
 }
 
+/* Media queries for different screen sizes */
+@media (min-width: 1198px) {
+    .head {
+        /* Use a smaller version of the background image for smaller screens */
+        background-image: url('../images/bg-head-md.png');
+    }
+}
+
+/* @media (max-width: 480px) { */
+    /* .head { */
+        /* Use an even smaller version of the background image for smaller screens */
+        /* background-image: url('header-image-smallest.jpg'); */
+    /* } */
+/* } */
+
 .intro {
     padding-top: 8rem;
 }
@@ -122,6 +137,8 @@ body {
 .welcome p {
     padding-bottom: 5rem;
 }
+
+
 
 
 /* PROJECTS */
