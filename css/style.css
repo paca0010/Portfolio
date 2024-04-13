@@ -133,6 +133,7 @@ body {
     }
     
 /* HOME */
+
 .head {
     background-image: url(../images/header\ bg\ image.png);
     background-size: cover;
@@ -198,6 +199,16 @@ body {
 
 /* ABOUT */
 
+.abouthead {
+    background-image: url(../images/header\ bg\ image.png);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    width: 100%;
+    height: 700px;
+    padding-top: 10rem;
+}
+
 .aboutdei h1 {
     padding-bottom: 3rem;
 }
@@ -207,16 +218,6 @@ body {
 }
 
 
-
-
-.abouthead {
-    background-image: url(../images/header\ bg\ image.png);
-    background-size: cover;
-    background-position: center;
-    padding: 100px 0;
-    width: 100%;
-    height: 700px;
-}
 
 
 /* CONTACT */
