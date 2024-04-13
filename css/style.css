@@ -43,6 +43,25 @@ body {
         padding-top: 15rem;
     }
 
+    .deiworks, .collab h1, p {
+        text-align: center;
+    }
+
+    .deiworks p {
+        padding-bottom: 5rem;
+    }
+
+    .intro {
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+    }
+
+    .collab p {
+        padding-bottom: 7rem;
+    }
+
+
+
     /* ABOUT */
 
     .abouthead {
@@ -90,6 +109,10 @@ body {
           margin: 4px 2px;
           border-radius: 50px;
           width: 30%;
+    }
+
+    .description {
+        padding-bottom: 3rem;
     }
 
     /* CONTACT */
