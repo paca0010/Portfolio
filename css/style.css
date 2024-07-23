@@ -156,6 +156,23 @@ body {
     padding-bottom: 5rem;
 }
 
+/* Slide-in animation */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-in {
+    display: inline-block;
+    animation: slideIn 1s ease-out;
+}
+
 
 
 
