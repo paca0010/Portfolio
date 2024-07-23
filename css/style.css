@@ -25,7 +25,7 @@ body {
         padding: 1rem;
         opacity: 0%;
     }
-    
+
 
     /* HOME */
 
@@ -43,12 +43,14 @@ body {
         padding-top: 15rem;
     }
 
-    .deiworks, .collab h1, p {
+    .deiworks,
+    .collab h1 {
         text-align: center;
     }
 
     .deiworks p {
         padding-bottom: 5rem;
+        text-align: center;
     }
 
     .intro {
@@ -56,8 +58,28 @@ body {
         padding-bottom: 1rem;
     }
 
+
     .collab p {
         padding-bottom: 7rem;
+        text-align: center;
+    }
+
+    /* Slide-in animation */
+    @keyframes slideIn {
+        from {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    .slide-in {
+        display: inline-block;
+        animation: slideIn 3.5s ease-out;
     }
 
 
@@ -78,6 +100,23 @@ body {
         padding-top: 15rem;
     }
 
+    /* Slide-down animation */
+    @keyframes slideDown {
+        from {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .slide-down {
+        animation: slideDown 3.5s ease-out;
+    }
+
     /* PROJECTS */
 
     .project-item {
@@ -88,7 +127,7 @@ body {
         padding: 1rem;
         margin: 11px;
     }
-    
+
     .project-img {
         display: flex;
         flex-direction: column;
@@ -99,26 +138,62 @@ body {
 
     .button {
         background-color: white;
-          border: 1px solid black;
-          color: black;
-          padding: 10px 20px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          font-size: 16px;
-          margin: 4px 2px;
-          border-radius: 50px;
-          width: 30%;
+        border: 1px solid black;
+        color: black;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 50px;
+        width: 30%;
     }
 
     .description {
         padding-bottom: 3rem;
     }
 
+    /* Slide-down animation */
+    @keyframes slideDown {
+        from {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .slide-down {
+        animation: slideDown 3.5s ease-out;
+    }
+
     /* CONTACT */
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /******Desktop Styles******/
@@ -131,117 +206,169 @@ body {
         padding: 1rem;
         opacity: 0%;
     }
-    
-/* HOME */
 
-.head {
-    background-image: url(../images/header\ bg\ image.png);
-    background-size: cover;
-    background-position: center;
-    padding: 100px 0;
-    width: 100%;
-    height: 700px;
-    padding-top: 10rem;
-}
+    /* HOME */
 
-.intro {
-    padding-top: 8rem;
-}
-
-.welcome h1 {
-    padding-bottom: 2rem;
-}
-
-.welcome p {
-    padding-bottom: 5rem;
-}
-
-/* Slide-in animation */
-@keyframes slideIn {
-    from {
-        transform: translateX(-100%);
-        opacity: 0;
+    .head {
+        background-image: url(../images/header\ bg\ image.png);
+        background-size: cover;
+        background-position: center;
+        padding: 100px 0;
+        width: 100%;
+        height: 700px;
+        padding-top: 10rem;
     }
-    to {
-        transform: translateX(0);
-        opacity: 1;
+
+    .intro {
+        padding-top: 8rem;
     }
-}
 
-.slide-in {
-    display: inline-block;
-    animation: slideIn 4s ease-out;
-}
+    .welcome h1 {
+        padding-bottom: 2rem;
+    }
 
+    .welcome p {
+        padding-bottom: 5rem;
+    }
 
+    /* Slide-in animation */
+    @keyframes slideIn {
+        from {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
 
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
 
-/* PROJECTS */
-
-.project-item {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #222;
-    border-radius: 8px;
-    padding: 1rem;
-    margin: 11px;
-}
-
-.project-img {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #222;
-    border-radius: 5px;
-    margin: 11px;
-}
-
-.title, .description {
-    text-align: left;
-}
-
-.button {
-    background-color: white;
-      border: 1px solid black;
-      color: black;
-      padding: 10px 20px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      border-radius: 50px;
-      width: 30%;
-}
-
-
-/* ABOUT */
-
-.abouthead {
-    background-image: url(../images/header\ bg\ image.png);
-    background-size: cover;
-    background-position: center;
-    padding: 100px 0;
-    width: 100%;
-    height: 700px;
-    padding-top: 10rem;
-}
-
-.aboutdei h1 {
-    padding-bottom: 3rem;
-}
-
-.aboutdei ul li {
-    padding-bottom: 2rem;
-}
+    .slide-in {
+        display: inline-block;
+        animation: slideIn 3.5s ease-out;
+    }
 
 
 
 
-/* CONTACT */
+    /* PROJECTS */
 
-iframe {
-    padding-left: 2rem;
-}
+    .project-item {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #222;
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 11px;
+    }
 
+    .project-img {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #222;
+        border-radius: 5px;
+        margin: 11px;
+    }
+
+    .title,
+    .description {
+        text-align: left;
+    }
+
+    .button {
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 50px;
+        width: 30%;
+    }
+
+    /* Slide-down animation */
+    @keyframes slideDown {
+        from {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .slide-down {
+        animation: slideDown 3.5s ease-out;
+    }
+
+
+    /* ABOUT */
+
+    .abouthead {
+        background-image: url(../images/header\ bg\ image.png);
+        background-size: cover;
+        background-position: center;
+        padding: 100px 0;
+        width: 100%;
+        height: 700px;
+        padding-top: 10rem;
+    }
+
+    .aboutdei h1 {
+        padding-bottom: 3rem;
+    }
+
+    .aboutdei ul li {
+        padding-bottom: 2rem;
+    }
+
+    /* Slide-down animation */
+    @keyframes slideDown {
+        from {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .slide-down {
+        animation: slideDown 3.5s ease-out;
+    }
+
+
+
+
+    /* CONTACT */
+
+    iframe {
+        padding-left: 2rem;
+    }
+
+    /* Slide-down animation */
+    @keyframes slideDown {
+        from {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .slide-down {
+        animation: slideDown 3.5s ease-out;
+    }
 
 }
