@@ -170,7 +170,7 @@ body {
 
 .slide-in {
     display: inline-block;
-    animation: slideIn 1s ease-out;
+    animation: slideIn 4s ease-out;
 }
 
 
