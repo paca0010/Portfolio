@@ -43,8 +43,8 @@ body {
         padding-top: 15rem;
     }
 
-    .deiworks,
-    .collab h1 {
+    .deiworks /*, .collabh1*/
+      { 
         text-align: center;
     }
 
@@ -58,7 +58,10 @@ body {
         padding-bottom: 1rem;
     }
 
-
+    .collab {
+        text-align: center;
+    }
+    
     .collab p {
         padding-bottom: 7rem;
         text-align: center;
