@@ -139,7 +139,7 @@ body {
         margin: 11px;
     }
 
-    .button {
+    .btn {
         background-color: white;
         border: 1px solid black;
         color: black;
@@ -325,7 +325,7 @@ body {
         text-align: left;
     }
 
-    .button {
+    .btn {
         background-color: white;
         border: 1px solid black;
         color: black;
