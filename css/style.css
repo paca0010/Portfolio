@@ -26,6 +26,24 @@ body {
         opacity: 0%;
     }
 
+    /* Hamburger menu hover effects */
+
+    .navbar-toggler {
+        transition: background-color 0.3s ease;
+    }
+    
+    .navbar-toggler:hover {
+        background-color: white;
+    }
+    
+    .navbar-toggler-icon {
+        transition: filter 0.3s ease;
+    }
+    
+    .navbar-toggler:hover .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
 
     /* HOME */
 
@@ -61,7 +79,7 @@ body {
     .collab {
         text-align: center;
     }
-    
+
     .collab p {
         padding-bottom: 7rem;
         text-align: center;
@@ -243,6 +261,18 @@ body {
         padding: 1rem;
         opacity: 0%;
     }
+
+    /* Hover Effect */
+
+    .nav-link {
+        transition: color 0.3s ease, border-bottom 0.3s ease;
+    }
+    
+    .nav-link:hover {
+        color: white;
+        border-bottom: 2px solid white;
+    }
+    
 
     /* HOME */
 
