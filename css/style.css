@@ -26,24 +26,6 @@ body {
         opacity: 0%;
     }
 
-    /* Hamburger menu hover effects */
-
-    .navbar-toggler {
-        transition: background-color 0.3s ease;
-    }
-    
-    .navbar-toggler:hover {
-        background-color: white;
-    }
-    
-    .navbar-toggler-icon {
-        transition: filter 0.3s ease;
-    }
-    
-    .navbar-toggler:hover .navbar-toggler-icon {
-        filter: invert(1);
-    }
-
 
     /* HOME */
 
