@@ -267,7 +267,8 @@ body {
         opacity: 0%;
     }
 
-    .container { /*Added this code also to male the bg-color to go all the way down or make it even 
+    .container {
+        /*Added this code also to male the bg-color to go all the way down or make it even 
         (this code is used more for pushing the footer to go all the way down and dont have a white space under the footer). 8-14-24*/
         min-height: 90vh;
     }
@@ -403,6 +404,30 @@ body {
     .slide-down {
         animation: slideDown 3.5s ease-out;
     }
+
+    /************Style Card hover Effects**************/
+    /* Style the card hover effect 
+    .project-item {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-img img {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 8px;
+    }
+        
+    */
+
+    /* On hover, enlarge the card and add a shadow */
+    /* .project-item:hover { */
+        /* transform: scale(1.05); Slightly increase size  */
+        /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); Add a shadow effect */
+    /* } */
+
+    /* .project-img:hover img { */
+        /* transform: scale(1.1); Slightly zoom in the image */
+    /* } */
+    /************Style Card hover Effects**************/
 
 
     /* ABOUT */
