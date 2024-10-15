@@ -153,7 +153,7 @@ body {
         font-size: 16px;
         margin: 4px 2px;
         border-radius: 50px;
-        width: 30%;
+        width: 100%;
     }
 
     /* Button click effects */
@@ -241,7 +241,7 @@ body {
 
 
 /******Desktop Styles******/
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 991px) {
 
     .skip-link {
         position: absolute;
