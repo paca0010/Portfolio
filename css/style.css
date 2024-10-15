@@ -16,7 +16,7 @@ body {
 }
 
 /******MObile Styles******/
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 990px) {
 
     .skip-link {
         position: absolute;
@@ -124,6 +124,7 @@ body {
 
     /* PROJECTS */
 
+    /* This is the whole box and inside is the projects*/
     .project-item {
         display: flex;
         flex-direction: column;
@@ -239,25 +240,8 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /******Desktop Styles******/
-@media screen and (min-width: 991px) {
+@media screen and (max-width: 991px) {
 
     .skip-link {
         position: absolute;
@@ -420,12 +404,12 @@ body {
 
     /* On hover, enlarge the card and add a shadow */
     /* .project-item:hover { */
-        /* transform: scale(1.05); Slightly increase size  */
-        /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); Add a shadow effect */
+    /* transform: scale(1.05); Slightly increase size  */
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); Add a shadow effect */
     /* } */
 
     /* .project-img:hover img { */
-        /* transform: scale(1.1); Slightly zoom in the image */
+    /* transform: scale(1.1); Slightly zoom in the image */
     /* } */
     /************Style Card hover Effects**************/
 
